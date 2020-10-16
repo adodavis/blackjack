@@ -94,6 +94,7 @@ void printHeader()
 		<< setw(8) << "====" << setw(8) << "====" << "\n";
 }
 
+// Randomly assigns cards to an array
 void shuffleChards(int cards[], int picked[])
 {
 	int i = 0, card;
